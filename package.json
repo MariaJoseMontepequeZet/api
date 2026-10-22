@@ -1,0 +1,35 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/MariaJoseMontepequeZet/api#readme",
+  "bugs": {
+    "url": "https://github.com/MariaJoseMontepequeZet/api/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MariaJoseMontepequeZet/api.git"
+  },
+  "license": "ISC",
+  "author": "Majo13",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test src/test/*.test.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.3.0",
+    "express-validator": "^7.3.2",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.11.3",
+    "passport": "^0.7.0",
+    "passport-jwt": "^4.0.1",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "supertest": "^7.3.1"
+  }
+}
